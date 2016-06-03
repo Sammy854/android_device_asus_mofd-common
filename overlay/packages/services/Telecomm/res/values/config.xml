@@ -18,5 +18,6 @@
     builds. -->
 <resources>
     <!-- DSDA phones that don't support local call hold need special handling -->
+    <add-resource type="bool" name="dsda_supports_lch" />
     <bool name="dsda_supports_lch">false</bool>
 </resources>
